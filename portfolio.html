@@ -12,29 +12,100 @@
     rel="stylesheet">
   <link rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.2.0/modern-normalize.min.css" />
-  <link rel="stylesheet" href="./css/styles.css" />
+  <link rel="stylesheet" href="./styles/styles.css" />
 </head>
 <body>
-  <main>
-    <h1>Портфолио</h1>
-    <ul>
+  <!--logo-navigation-->
+  <header class="header">
+    <nav>
+      <a class="logo-link" href="./index.html"><span
+          class="logo-text header-logo-web">Web</span><span
+          class="logo-text header-logo-studio">Studio</span></a>
+      <ul class="list">
+        <li><a class="link" href="./index.html">Студия</a>
+        </li>
+        <li><a class="link"
+            href="./portfolio.html">Портфолио</a></li>
+        <li><a class="link" href="">Контакты</a></li>
+      </ul>
+    </nav>
+    <ul class="list contacts">
       <li>
-        <button type="button">Все</button>
+        <a class="link"
+          href="mailto:info@devstudio.com">info@devstudio.com</a>
       </li>
       <li>
-        <button type="button"></button>
-      </li>
-      <li>
-        <button type="button"></button>
-      </li>
-      <li>
-        <button type="button"></button>
-      </li>
-      <li>
-        <button type="button"></button>
+        <a class="link" href="tel:+380961111111">+38 096 111
+          11 11</a>
       </li>
     </ul>
+  </header>
+  <main>
+    <h1 class="visually-hidden">Портфолио</h1>
+    <ul class="list">
+      <li>
+        <button class="filter" type="button">Все</button>
+      </li>
+      <li>
+        <button class="filter" type="button">Веб-сайты</button>
+      </li>
+      <li>
+        <button class="filter" type="button">Приложения</button>
+      </li>
+      <li>
+        <button class="filter" type="button">Дизайн</button>
+      </li>
+      <li>
+        <button class="filter" type="button">Маркетинг</button>
+      </li>
+    </ul>
+    <!--section-our-team-->
+    <!-- <section class="team">
+      <h2 class="title">Наша команда</h2>
+      <ul class="list">
+        <li>
+          <img src="images/team/Igor.jpg"
+            alt="фото Игорь Демьяненко" width="270">
+          <h3 class="team-member-name">Игорь Демьяненко</h3>
+          <p>Product Designer</p>
+        </li>
+        <li>
+          <img src="images/team/Olga.jpg"
+            alt="фото Ольга Репина" width="270">
+          <h3 class="team-member-name">Ольга Репина</h3>
+          <p>Frontend Developer</p>
+        </li>
+        <li>
+          <img src="images/team/Nik.jpg"
+            alt="фото Николай Тарасов" width="270">
+          <h3 class="team-member-name">Николай Тарасов</h3>
+          <p>Marketing</p>
+        </li>
+        <li>
+          <img src="images/team/Mike.jpg"
+            alt="фото Михаил Ермаков" width="270">
+          <h3 class="team-member-name">Михаил Ермаков</h3>
+          <p>UI Designer</p>
+        </li>
+      </ul>
+    </section> -->
     ul>
   </main>
+  <footer class="footer">
+    <a class="link" href="./index.html"><span
+        class="logo-text footer-logo-web">Web</span><span
+        class="logo-text footer-logo-studio">Studio</span></a>
+    <address>г. Киев, пр-т Леси Украинки, 26</address>
+    <ul class="list">
+      <li>
+        <a class="link"
+          href="mailto:info@devstudio.com">info@devstudio.com</a>
+      </li>
+      <li>
+        <a class="link" href="tel:+380961111111">+38 096 111
+          11 11</a>
+      </li>
+    </ul>
+  </footer>
 </body>
 </html>
