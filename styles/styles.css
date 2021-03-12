@@ -49,7 +49,7 @@ address {
   color: var(--accent-color);
 }
 
-.list {
+.list, .portfolio-list {
   list-style: none;  
 }
 
@@ -146,4 +146,23 @@ address {
 .filter:focus {
   color: var(--white-text);
   background-color: var(--accent-color);
+}
+
+.portfolio-item-title {
+  
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+color: var(--title-color)
+}
+
+.portfolio-item-filter {
+  font-size: 16px;
+  line-height: 1.875;
+}
+
+.portfolio-item-link:hover,
+.portfolio-item-link:focus {
+  color: var(--main-text-color)
 }
