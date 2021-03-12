@@ -1,2 +1,131 @@
 /* font-family: 'Raleway', sans-serif;
-font-family: 'Roboto', sans-serif; */
+ */
+:root {
+  --main-text-color: #757575;
+  --accent-color: #2196F3;
+  --title-color: #212121;
+  --white-text: #ffffff;
+  --body-bg-color: #E5E5E5;
+  --dark-bg-color: #2F303A;
+  --logo-font: "Raleway", sans-serif;
+    /* --dark-bg-text-color: #9da4bd;
+     */
+  
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+  background-color: var(--body-bg-color);
+}
+
+address {
+  font-style: normal;
+  color: var(--white-text);
+}
+
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
+
+.link, .logo-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.link:hover,
+.link:focus {
+  color: var(--accent-color);
+}
+
+.list {
+  list-style: none;  
+}
+
+.logo-text {
+  font-family: var(--logo-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+.header-logo-web, .footer-logo-web {
+  color: var(--accent-color);
+}
+
+.header-logo-studio {
+ color: #000000;
+}
+
+.footer-logo-studio {
+  color: var(--white-text);
+}
+
+.hero, .team, .work-about {
+  text-align: center;
+}
+
+.hero, .footer {
+  background-color: var(--dark-bg-color);
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.364;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--white-text)
+}
+
+.button {
+  background-color: var(--accent-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.06em;
+  color: var(--white-text);
+  cursor: pointer;
+  /* display: flex;
+  align-items: center;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;  */
+}
+
+.button:hover,
+.button:focus {
+  background-color: #188CE8;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.167;
+  color: var(--title-color);
+}
+
+.features-item-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.19;
+  text-transform: uppercase;
+  color: var(--title-color);
+}
+
+.team-member-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  color: var(--title-color);
+}
