@@ -39,15 +39,24 @@ address {
   overflow: hidden;
 }
 
-.link, .logo-link {
+.header-link {
   text-decoration: none;
-  color: inherit;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--title-color);
 }
 
-.link:hover,
-.link:focus {
+.nav-list-item .header-link {
+   color: var(--main-text-color);
+}
+
+.header-link:hover, .footer-link:hover,
+.header-link:focus, .footer-link:focus {
   color: var(--accent-color);
 }
+
+
 
 .list, .portfolio-list {
   list-style: none;  
@@ -131,6 +140,11 @@ address {
   color: var(--title-color);
 }
 
+.footer-link{
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.6);
+}
+
 /* Portfolio.html */
 
 .filter {
@@ -162,7 +176,9 @@ color: var(--title-color)
   line-height: 1.875;
 }
 
+.portfolio-item-link,
 .portfolio-item-link:hover,
 .portfolio-item-link:focus {
-  color: var(--main-text-color)
+  text-decoration: none;
+  color: var(--main-text-color);
 }
