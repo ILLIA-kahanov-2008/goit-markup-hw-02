@@ -47,7 +47,7 @@ address {
   color: var(--title-color);
 }
 
-.nav-list-item .header-link {
+.contacts .header-link {
    color: var(--main-text-color);
 }
 
@@ -182,3 +182,4 @@ color: var(--title-color)
   text-decoration: none;
   color: var(--main-text-color);
 }
+
